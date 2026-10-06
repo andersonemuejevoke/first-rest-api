@@ -1,0 +1,29 @@
+what's the difference between res.sendStatus() and res.status();
+what is the optional chaining
+sort((a, b) => (a.id > b.id ? 1 : a.id < b.id ? -1 : 0) really don't understand how the sorting works in her
+startsWith() method
+what the Object.values(obj) : takes an obj and returns an array of key values within an obj
+what the Object.keys(obj) : takes an obj and returns an array of key values within an obj
+what the Object.entries(obj) : takes an obj and returns both key and value of an obj
+
+
+
+
+http codes i know 
+403: forbidden
+404: not found
+401: conflict
+204: no content
+200: ok
+find(): Tests each element in an array against a condition you define and returns the very first element that matches
+findIndex(): Works identically to find(), but returns the index number of the first match (or -1 if not found)
+some(): Returns true if at least one item matches the condition, otherwise false
+every(): Returns true only if all items match the condition
+
+DATABSE_URI 
+install dep mongoose
+dbConn js file in the config directory
+useUnifiedTopology true
+useNewUrlParser true
+
+id: 6ac39900c0881c385c1d2292

@@ -1,0 +1,31 @@
+[
+  {
+    "username": "Kobiruo",
+    "roles": { "User": 2001 },
+    "password": "$2b$10$w3lpxnT5jPh6u39l5QMTROD/7VHf5qC6A.cQNvH79tKMYTVEqtjRu"
+  },
+  {
+    "username": "Providence",
+    "roles": { "User": 2001, "Editor": 1984 },
+    "password": "$2b$10$nhenkrPHPelU9i33Ea7R8ORpCZJOC8QoXoSKYSdp3xtT7Lzph5VDS",
+    "refreshToken": ""
+  },
+  {
+    "username": "Prisca",
+    "roles": { "User": 2001, "Editor": 1984 },
+    "password": "$2b$10$FPdgPos8RaoRSIvkNNdq5eXwgYK/uAYYAAHFoCNSZ10z8O58Uuatm",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlByaXNjYSIsImlhdCI6MTc5MDkyNjYxOCwiZXhwIjoxNzkxMDEzMDE4fQ.1JhB-MHzPY29NAnIurzBgk9rX9k7FRdYHv0rqFJnROA"
+  },
+  {
+    "username": "Princess",
+    "roles": { "User": 2001, "Editor": 1984, "Admin": 5150 },
+    "password": "$2b$10$sYu8wSUwoNaE/Bc86vd5VefF85Zi6mPXs0Dj9xm8IR8Hj0EBCZytK",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlByaW5jZXNzIiwiaWF0IjoxNzkwOTI3MTExLCJleHAiOjE3OTEwMTM1MTF9.a6DkpIPKu4KxR_oeceG00bgttdJ8w2c6iNDOKbPuzsg"
+  },
+  {
+    "username": "Anderson",
+    "roles": { "User": 2001 },
+    "password": "$2b$10$wTcI2H4Sk6HSWfhNfcViie5MZx0Mx4avql8UxhWxvsFiK5.ufthTa",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFuZGVyc29uIiwiaWF0IjoxNzkwOTI3NTY5LCJleHAiOjE3OTEwMTM5Njl9.CnIPXr5MEspHmkiLKgjjQjG3mxDbtPbKZ4vTFJmBxp4"
+  }
+]
