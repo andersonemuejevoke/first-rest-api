@@ -13,7 +13,6 @@ const handleRefreshToken = async (req, res) => {
       refreshToken,
       process.env.REFRESH_TOKEN_SECRET,
       (err, decoded) => {
-        console.log('decoded: ', decoded);
         if (err || foundUser.username !== decoded.username)
           return res.sendStatus(403);
         const roles = Object.values(foundUser.roles);
@@ -32,7 +31,7 @@ const handleRefreshToken = async (req, res) => {
       },
     );
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 

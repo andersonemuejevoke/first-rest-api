@@ -18,7 +18,6 @@ const handleLogout = async (req, res) => {
     }
     foundUser.refreshToken = '';
     const result = await foundUser.save();
-    console.log(result);
 
     // Always add the secure:true property in production as it uses https
     res.clearCookie('jwt', {
@@ -28,7 +27,7 @@ const handleLogout = async (req, res) => {
     });
     res.sendStatus(204); // no content
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 };
 

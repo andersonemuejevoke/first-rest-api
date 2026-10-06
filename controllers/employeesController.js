@@ -78,7 +78,7 @@ const getEmployee = async (req, res) => {
   if (!req?.params?.id) {
     return res.status(400).json({ message: `Employee ID required.` });
   }
-  console.log(req.params.id);
+
   try {
     const employee = await Employee.findById(req.params.id);
     if (!employee) {
